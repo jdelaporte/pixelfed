@@ -1,0 +1,10 @@
+name: Deploy pixelfed unit file
+copy:
+  src: pixelfed.service
+  dest: /etc/systemd/system/pixelfed.service
+
+name: Enable and start pixelfed service
+systemd:
+  name: pixelfed
+  enabled: true
+  state: started

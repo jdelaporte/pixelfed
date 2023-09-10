@@ -1,0 +1,19 @@
+# Example from https://docs.pixelfed.org/running-pixelfed/installation/#setting-up-services
+
+[Unit]
+Description=Pixelfed task queueing via Laravel Horizon
+After=network.target
+Requires=mariadb
+Requires=php-fpm
+Requires=redis
+Requires=nginx
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/php /usr/share/webapps/pixelfed/artisan horizon
+User=http
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
