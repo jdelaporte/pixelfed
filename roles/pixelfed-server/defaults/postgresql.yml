@@ -1,2 +1,2 @@
-db_connection: pgsql
-db_port: 5432
+pixelfed_db_connection: pgsql
+pixelfed_db_port: 5432

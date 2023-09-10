@@ -1,0 +1,4 @@
+pixelfed_redis_host: 127.0.0.1
+pixelfed_redis_port: 6379
+pixelfed_redis_password: changeme
+

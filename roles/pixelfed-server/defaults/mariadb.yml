@@ -1,5 +1,5 @@
-db_host: 127.0.0.1
-db_port: 3306 #5432 for postgres TODO: switch on db type
-db_database: pixelfed
-db_username: pixelfed
-db_password: changeme
+pixelfed_db_host: 127.0.0.1
+pixelfed_db_port: 3306 #5432 for postgres TODO: switch on db type
+pixelfed_db_database: pixelfed
+pixelfed_db_username: pixelfed
+pixelfed_db_password: changeme
