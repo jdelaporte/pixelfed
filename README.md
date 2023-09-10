@@ -1,2 +1,3 @@
-# jdelaporte.pixelfed Ansible Collection
-Ansible collection to create Pixelfed server
+# Ansible Collection - jdelaporte.pixelfed
+
+Documentation for the collection.
