@@ -1,0 +1,6 @@
+name: Dedicate a user for pixelfed
+user:
+  name: pixelfed
+  shell: /bin/bash
+  system: true
+  group: pixelfed  #TODO: Does this automatically create group, or does it fail?
