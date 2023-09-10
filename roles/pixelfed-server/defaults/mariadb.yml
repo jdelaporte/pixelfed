@@ -3,3 +3,7 @@ pixelfed_db_port: 3306 #5432 for postgres TODO: switch on db type
 pixelfed_db_database: pixelfed
 pixelfed_db_username: pixelfed
 pixelfed_db_password: changeme
+
+pixelfed_db_drivers:
+- pdo_mysql
+- mysqli

@@ -1,0 +1,5 @@
+pixelfed_post_max_size: 8M
+#file_uploads: # default On, which it needs to be
+pixelfed_upload_max_filesize: 2M #set this <= post_max_size
+pixelfed_max_file_uploads: 20 # make sure it is >= your desired attachment limit
+pixelfed_max_execution_time: 30 #consider raising this to 600 or more so that longer tasks aren’t interrupted

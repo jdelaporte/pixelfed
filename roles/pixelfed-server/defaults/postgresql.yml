@@ -1,2 +1,6 @@
 pixelfed_db_connection: pgsql
 pixelfed_db_port: 5432
+
+pixelfed_db_drivers:
+- pdo_pgsql
+- pgsql

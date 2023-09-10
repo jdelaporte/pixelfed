@@ -1,0 +1,16 @@
+pixelfed_php_extensions:
+  - bcmath
+  - ctype
+  - curl
+  - exif
+  - gd
+  - iconv
+  - intl
+  - json
+  - mbstring
+  - openssl
+  - redis
+  - tokenizer
+  - xml
+  - zip
+

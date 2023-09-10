@@ -1,1 +1,2 @@
 # See https://docs.pixelfed.org/running-pixelfed/prerequisites/#php-fpm
+# Enable extensions in php configuration file, then load
